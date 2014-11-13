@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE book PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "">
+<book xmlns="http://www.devhelp.net/book" title="GSound Reference Manual" link="index.html" author="" name="gsound" version="2" language="c">
+  <chapters>
+    <sub name="API Reference" link="ch01.html">
+      <sub name="GSoundContext" link="GSoundContext.html"/>
+      <sub name="GSound Attributes" link="gsound-GSound-Attributes.html"/>
+    </sub>
+    <sub name="Object Hierarchy" link="object-tree.html"/>
+    <sub name="API Index" link="api-index-full.html"/>
+    <sub name="Index of deprecated API" link="deprecated-api-index.html"/>
+    <sub name="Annotation Glossary" link="annotation-glossary.html"/>
+  </chapters>
+  <functions>
+    <keyword type="macro" name="GSOUND_ERROR" link="GSoundContext.html#GSOUND-ERROR:CAPS"/>
+    <keyword type="function" name="gsound_error_quark ()" link="GSoundContext.html#gsound-error-quark"/>
+    <keyword type="function" name="gsound_context_new ()" link="GSoundContext.html#gsound-context-new"/>
+    <keyword type="function" name="gsound_context_open ()" link="GSoundContext.html#gsound-context-open"/>
+    <keyword type="function" name="gsound_context_change_attrs ()" link="GSoundContext.html#gsound-context-change-attrs"/>
+    <keyword type="function" name="gsound_context_change_attrsv ()" link="GSoundContext.html#gsound-context-change-attrsv"/>
+    <keyword type="function" name="gsound_context_set_driver ()" link="GSoundContext.html#gsound-context-set-driver"/>
+    <keyword type="function" name="gsound_context_play_simple ()" link="GSoundContext.html#gsound-context-play-simple"/>
+    <keyword type="function" name="gsound_context_play_simplev ()" link="GSoundContext.html#gsound-context-play-simplev"/>
+    <keyword type="function" name="gsound_context_play_full ()" link="GSoundContext.html#gsound-context-play-full"/>
+    <keyword type="function" name="gsound_context_play_fullv ()" link="GSoundContext.html#gsound-context-play-fullv"/>
+    <keyword type="function" name="gsound_context_play_full_finish ()" link="GSoundContext.html#gsound-context-play-full-finish"/>
+    <keyword type="function" name="gsound_context_cache ()" link="GSoundContext.html#gsound-context-cache"/>
+    <keyword type="function" name="gsound_context_cachev ()" link="GSoundContext.html#gsound-context-cachev"/>
+    <keyword type="enum" name="enum GSoundError" link="GSoundContext.html#GSoundError"/>
+    <keyword type="macro" name="GSOUND_ATTR_MEDIA_NAME" link="gsound-GSound-Attributes.html#GSOUND-ATTR-MEDIA-NAME:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_MEDIA_TITLE" link="gsound-GSound-Attributes.html#GSOUND-ATTR-MEDIA-TITLE:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_MEDIA_ARTIST" link="gsound-GSound-Attributes.html#GSOUND-ATTR-MEDIA-ARTIST:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_MEDIA_LANGUAGE" link="gsound-GSound-Attributes.html#GSOUND-ATTR-MEDIA-LANGUAGE:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_MEDIA_FILENAME" link="gsound-GSound-Attributes.html#GSOUND-ATTR-MEDIA-FILENAME:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_MEDIA_ICON" link="gsound-GSound-Attributes.html#GSOUND-ATTR-MEDIA-ICON:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_MEDIA_ICON_NAME" link="gsound-GSound-Attributes.html#GSOUND-ATTR-MEDIA-ICON-NAME:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_MEDIA_ROLE" link="gsound-GSound-Attributes.html#GSOUND-ATTR-MEDIA-ROLE:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_EVENT_ID" link="gsound-GSound-Attributes.html#GSOUND-ATTR-EVENT-ID:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_EVENT_DESCRIPTION" link="gsound-GSound-Attributes.html#GSOUND-ATTR-EVENT-DESCRIPTION:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_EVENT_MOUSE_X" link="gsound-GSound-Attributes.html#GSOUND-ATTR-EVENT-MOUSE-X:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_EVENT_MOUSE_Y" link="gsound-GSound-Attributes.html#GSOUND-ATTR-EVENT-MOUSE-Y:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_EVENT_MOUSE_HPOS" link="gsound-GSound-Attributes.html#GSOUND-ATTR-EVENT-MOUSE-HPOS:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_EVENT_MOUSE_VPOS" link="gsound-GSound-Attributes.html#GSOUND-ATTR-EVENT-MOUSE-VPOS:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_EVENT_MOUSE_BUTTON" link="gsound-GSound-Attributes.html#GSOUND-ATTR-EVENT-MOUSE-BUTTON:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_WINDOW_NAME" link="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-NAME:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_WINDOW_ID" link="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-ID:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_WINDOW_ICON" link="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-ICON:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_WINDOW_ICON_NAME" link="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-ICON-NAME:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_WINDOW_X" link="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-X:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_WINDOW_Y" link="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-Y:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_WINDOW_WIDTH" link="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-WIDTH:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_WINDOW_HEIGHT" link="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-HEIGHT:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_WINDOW_HPOS" link="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-HPOS:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_WINDOW_VPOS" link="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-VPOS:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_WINDOW_DESKTOP" link="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-DESKTOP:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_WINDOW_X11_DISPLAY" link="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-X11-DISPLAY:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_WINDOW_X11_SCREEN" link="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-X11-SCREEN:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_WINDOW_X11_MONITOR" link="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-X11-MONITOR:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_WINDOW_X11_XID" link="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-X11-XID:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_APPLICATION_NAME" link="gsound-GSound-Attributes.html#GSOUND-ATTR-APPLICATION-NAME:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_APPLICATION_ID" link="gsound-GSound-Attributes.html#GSOUND-ATTR-APPLICATION-ID:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_APPLICATION_VERSION" link="gsound-GSound-Attributes.html#GSOUND-ATTR-APPLICATION-VERSION:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_APPLICATION_ICON" link="gsound-GSound-Attributes.html#GSOUND-ATTR-APPLICATION-ICON:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_APPLICATION_ICON_NAME" link="gsound-GSound-Attributes.html#GSOUND-ATTR-APPLICATION-ICON-NAME:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_APPLICATION_LANGUAGE" link="gsound-GSound-Attributes.html#GSOUND-ATTR-APPLICATION-LANGUAGE:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_APPLICATION_PROCESS_ID" link="gsound-GSound-Attributes.html#GSOUND-ATTR-APPLICATION-PROCESS-ID:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_APPLICATION_PROCESS_BINARY" link="gsound-GSound-Attributes.html#GSOUND-ATTR-APPLICATION-PROCESS-BINARY:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_APPLICATION_PROCESS_USER" link="gsound-GSound-Attributes.html#GSOUND-ATTR-APPLICATION-PROCESS-USER:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_APPLICATION_PROCESS_HOST" link="gsound-GSound-Attributes.html#GSOUND-ATTR-APPLICATION-PROCESS-HOST:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_CANBERRA_CACHE_CONTROL" link="gsound-GSound-Attributes.html#GSOUND-ATTR-CANBERRA-CACHE-CONTROL:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_CANBERRA_VOLUME" link="gsound-GSound-Attributes.html#GSOUND-ATTR-CANBERRA-VOLUME:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_CANBERRA_XDG_THEME_NAME" link="gsound-GSound-Attributes.html#GSOUND-ATTR-CANBERRA-XDG-THEME-NAME:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_CANBERRA_XDG_THEME_OUTPUT_PROFILE" link="gsound-GSound-Attributes.html#GSOUND-ATTR-CANBERRA-XDG-THEME-OUTPUT-PROFILE:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_CANBERRA_ENABLE" link="gsound-GSound-Attributes.html#GSOUND-ATTR-CANBERRA-ENABLE:CAPS"/>
+    <keyword type="macro" name="GSOUND_ATTR_CANBERRA_FORCE_CHANNEL" link="gsound-GSound-Attributes.html#GSOUND-ATTR-CANBERRA-FORCE-CHANNEL:CAPS"/>
+  </functions>
+</book>

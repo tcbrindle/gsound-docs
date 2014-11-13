@@ -1,0 +1,662 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>GSound Reference Manual: GSound Attributes</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="GSound Reference Manual">
+<link rel="up" href="ch01.html" title="API Reference">
+<link rel="prev" href="GSoundContext.html" title="GSoundContext">
+<link rel="next" href="object-tree.html" title="Object Hierarchy">
+<meta name="generator" content="GTK-Doc V1.21 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#gsound-GSound-Attributes.description" class="shortcut">Description</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="GSoundContext.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="object-tree.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="gsound-GSound-Attributes"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="gsound-GSound-Attributes.top_of_page"></a>GSound Attributes</span></h2>
+<p>GSound Attributes — Attributes recognized by GSound</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="gsound-GSound-Attributes.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="name">
+<col class="description">
+</colgroup>
+<tbody>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-MEDIA-NAME:CAPS" title="GSOUND_ATTR_MEDIA_NAME">GSOUND_ATTR_MEDIA_NAME</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-MEDIA-TITLE:CAPS" title="GSOUND_ATTR_MEDIA_TITLE">GSOUND_ATTR_MEDIA_TITLE</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-MEDIA-ARTIST:CAPS" title="GSOUND_ATTR_MEDIA_ARTIST">GSOUND_ATTR_MEDIA_ARTIST</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-MEDIA-LANGUAGE:CAPS" title="GSOUND_ATTR_MEDIA_LANGUAGE">GSOUND_ATTR_MEDIA_LANGUAGE</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-MEDIA-FILENAME:CAPS" title="GSOUND_ATTR_MEDIA_FILENAME">GSOUND_ATTR_MEDIA_FILENAME</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-MEDIA-ICON:CAPS" title="GSOUND_ATTR_MEDIA_ICON">GSOUND_ATTR_MEDIA_ICON</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-MEDIA-ICON-NAME:CAPS" title="GSOUND_ATTR_MEDIA_ICON_NAME">GSOUND_ATTR_MEDIA_ICON_NAME</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-MEDIA-ROLE:CAPS" title="GSOUND_ATTR_MEDIA_ROLE">GSOUND_ATTR_MEDIA_ROLE</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-EVENT-ID:CAPS" title="GSOUND_ATTR_EVENT_ID">GSOUND_ATTR_EVENT_ID</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-EVENT-DESCRIPTION:CAPS" title="GSOUND_ATTR_EVENT_DESCRIPTION">GSOUND_ATTR_EVENT_DESCRIPTION</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-EVENT-MOUSE-X:CAPS" title="GSOUND_ATTR_EVENT_MOUSE_X">GSOUND_ATTR_EVENT_MOUSE_X</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-EVENT-MOUSE-Y:CAPS" title="GSOUND_ATTR_EVENT_MOUSE_Y">GSOUND_ATTR_EVENT_MOUSE_Y</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-EVENT-MOUSE-HPOS:CAPS" title="GSOUND_ATTR_EVENT_MOUSE_HPOS">GSOUND_ATTR_EVENT_MOUSE_HPOS</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-EVENT-MOUSE-VPOS:CAPS" title="GSOUND_ATTR_EVENT_MOUSE_VPOS">GSOUND_ATTR_EVENT_MOUSE_VPOS</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-EVENT-MOUSE-BUTTON:CAPS" title="GSOUND_ATTR_EVENT_MOUSE_BUTTON">GSOUND_ATTR_EVENT_MOUSE_BUTTON</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-NAME:CAPS" title="GSOUND_ATTR_WINDOW_NAME">GSOUND_ATTR_WINDOW_NAME</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-ID:CAPS" title="GSOUND_ATTR_WINDOW_ID">GSOUND_ATTR_WINDOW_ID</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-ICON:CAPS" title="GSOUND_ATTR_WINDOW_ICON">GSOUND_ATTR_WINDOW_ICON</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-ICON-NAME:CAPS" title="GSOUND_ATTR_WINDOW_ICON_NAME">GSOUND_ATTR_WINDOW_ICON_NAME</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-X:CAPS" title="GSOUND_ATTR_WINDOW_X">GSOUND_ATTR_WINDOW_X</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-Y:CAPS" title="GSOUND_ATTR_WINDOW_Y">GSOUND_ATTR_WINDOW_Y</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-WIDTH:CAPS" title="GSOUND_ATTR_WINDOW_WIDTH">GSOUND_ATTR_WINDOW_WIDTH</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-HEIGHT:CAPS" title="GSOUND_ATTR_WINDOW_HEIGHT">GSOUND_ATTR_WINDOW_HEIGHT</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-HPOS:CAPS" title="GSOUND_ATTR_WINDOW_HPOS">GSOUND_ATTR_WINDOW_HPOS</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-VPOS:CAPS" title="GSOUND_ATTR_WINDOW_VPOS">GSOUND_ATTR_WINDOW_VPOS</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-DESKTOP:CAPS" title="GSOUND_ATTR_WINDOW_DESKTOP">GSOUND_ATTR_WINDOW_DESKTOP</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-X11-DISPLAY:CAPS" title="GSOUND_ATTR_WINDOW_X11_DISPLAY">GSOUND_ATTR_WINDOW_X11_DISPLAY</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-X11-SCREEN:CAPS" title="GSOUND_ATTR_WINDOW_X11_SCREEN">GSOUND_ATTR_WINDOW_X11_SCREEN</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-X11-MONITOR:CAPS" title="GSOUND_ATTR_WINDOW_X11_MONITOR">GSOUND_ATTR_WINDOW_X11_MONITOR</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-WINDOW-X11-XID:CAPS" title="GSOUND_ATTR_WINDOW_X11_XID">GSOUND_ATTR_WINDOW_X11_XID</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-APPLICATION-NAME:CAPS" title="GSOUND_ATTR_APPLICATION_NAME">GSOUND_ATTR_APPLICATION_NAME</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-APPLICATION-ID:CAPS" title="GSOUND_ATTR_APPLICATION_ID">GSOUND_ATTR_APPLICATION_ID</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-APPLICATION-VERSION:CAPS" title="GSOUND_ATTR_APPLICATION_VERSION">GSOUND_ATTR_APPLICATION_VERSION</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-APPLICATION-ICON:CAPS" title="GSOUND_ATTR_APPLICATION_ICON">GSOUND_ATTR_APPLICATION_ICON</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-APPLICATION-ICON-NAME:CAPS" title="GSOUND_ATTR_APPLICATION_ICON_NAME">GSOUND_ATTR_APPLICATION_ICON_NAME</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-APPLICATION-LANGUAGE:CAPS" title="GSOUND_ATTR_APPLICATION_LANGUAGE">GSOUND_ATTR_APPLICATION_LANGUAGE</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-APPLICATION-PROCESS-ID:CAPS" title="GSOUND_ATTR_APPLICATION_PROCESS_ID">GSOUND_ATTR_APPLICATION_PROCESS_ID</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-APPLICATION-PROCESS-BINARY:CAPS" title="GSOUND_ATTR_APPLICATION_PROCESS_BINARY">GSOUND_ATTR_APPLICATION_PROCESS_BINARY</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-APPLICATION-PROCESS-USER:CAPS" title="GSOUND_ATTR_APPLICATION_PROCESS_USER">GSOUND_ATTR_APPLICATION_PROCESS_USER</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-APPLICATION-PROCESS-HOST:CAPS" title="GSOUND_ATTR_APPLICATION_PROCESS_HOST">GSOUND_ATTR_APPLICATION_PROCESS_HOST</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-CANBERRA-CACHE-CONTROL:CAPS" title="GSOUND_ATTR_CANBERRA_CACHE_CONTROL">GSOUND_ATTR_CANBERRA_CACHE_CONTROL</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-CANBERRA-VOLUME:CAPS" title="GSOUND_ATTR_CANBERRA_VOLUME">GSOUND_ATTR_CANBERRA_VOLUME</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-CANBERRA-XDG-THEME-NAME:CAPS" title="GSOUND_ATTR_CANBERRA_XDG_THEME_NAME">GSOUND_ATTR_CANBERRA_XDG_THEME_NAME</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-CANBERRA-XDG-THEME-OUTPUT-PROFILE:CAPS" title="GSOUND_ATTR_CANBERRA_XDG_THEME_OUTPUT_PROFILE">GSOUND_ATTR_CANBERRA_XDG_THEME_OUTPUT_PROFILE</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-CANBERRA-ENABLE:CAPS" title="GSOUND_ATTR_CANBERRA_ENABLE">GSOUND_ATTR_CANBERRA_ENABLE</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-CANBERRA-FORCE-CHANNEL:CAPS" title="GSOUND_ATTR_CANBERRA_FORCE_CHANNEL">GSOUND_ATTR_CANBERRA_FORCE_CHANNEL</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="gsound-GSound-Attributes.description"></a><h2>Description</h2>
+<p>Attributes which can be applied to a <a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a> or passed to one of
+the <code class="literal"><code class="function">play()</code></code> or <code class="literal"><code class="function">cache()</code></code> methods.</p>
+</div>
+<div class="refsect1">
+<a name="gsound-GSound-Attributes.functions_details"></a><h2>Functions</h2>
+</div>
+<div class="refsect1">
+<a name="gsound-GSound-Attributes.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="GSOUND-ATTR-MEDIA-NAME:CAPS"></a><h3>GSOUND_ATTR_MEDIA_NAME</h3>
+<pre class="programlisting">#define GSOUND_ATTR_MEDIA_NAME                         "media.name"
+</pre>
+<p>A name describing the media being played. Localized if possible and applicable.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-MEDIA-TITLE:CAPS"></a><h3>GSOUND_ATTR_MEDIA_TITLE</h3>
+<pre class="programlisting">#define GSOUND_ATTR_MEDIA_TITLE                        "media.title"
+</pre>
+<p>A (song) title describing the media being played. Localized if possible and applicable.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-MEDIA-ARTIST:CAPS"></a><h3>GSOUND_ATTR_MEDIA_ARTIST</h3>
+<pre class="programlisting">#define GSOUND_ATTR_MEDIA_ARTIST                       "media.artist"
+</pre>
+<p>The artist of this media. Localized if possible and applicable.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-MEDIA-LANGUAGE:CAPS"></a><h3>GSOUND_ATTR_MEDIA_LANGUAGE</h3>
+<pre class="programlisting">#define GSOUND_ATTR_MEDIA_LANGUAGE                     "media.language"
+</pre>
+<p>The language this media is in, in some standard POSIX locale string, such as "de_DE".</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-MEDIA-FILENAME:CAPS"></a><h3>GSOUND_ATTR_MEDIA_FILENAME</h3>
+<pre class="programlisting">#define GSOUND_ATTR_MEDIA_FILENAME                     "media.filename"
+</pre>
+<p>The file name this media was or can be loaded from.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-MEDIA-ICON:CAPS"></a><h3>GSOUND_ATTR_MEDIA_ICON</h3>
+<pre class="programlisting">#define GSOUND_ATTR_MEDIA_ICON                         "media.icon"
+</pre>
+<p>An icon for this media in binary PNG format.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-MEDIA-ICON-NAME:CAPS"></a><h3>GSOUND_ATTR_MEDIA_ICON_NAME</h3>
+<pre class="programlisting">#define GSOUND_ATTR_MEDIA_ICON_NAME                    "media.icon_name"
+</pre>
+<p>An icon name as defined in the XDG icon naming specifcation.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-MEDIA-ROLE:CAPS"></a><h3>GSOUND_ATTR_MEDIA_ROLE</h3>
+<pre class="programlisting">#define GSOUND_ATTR_MEDIA_ROLE                         "media.role"
+</pre>
+<p>The "role" this media is played in. For event sounds the string
+"event". For other cases strings like "music", "video", "game", ...</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-EVENT-ID:CAPS"></a><h3>GSOUND_ATTR_EVENT_ID</h3>
+<pre class="programlisting">#define GSOUND_ATTR_EVENT_ID                           "event.id"
+</pre>
+<p>A textual id for an event sound, as mandated by the XDG sound naming specification.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-EVENT-DESCRIPTION:CAPS"></a><h3>GSOUND_ATTR_EVENT_DESCRIPTION</h3>
+<pre class="programlisting">#define GSOUND_ATTR_EVENT_DESCRIPTION                  "event.description"
+</pre>
+<p>A descriptive string for the sound event. Localized if possible and applicable.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-EVENT-MOUSE-X:CAPS"></a><h3>GSOUND_ATTR_EVENT_MOUSE_X</h3>
+<pre class="programlisting">#define GSOUND_ATTR_EVENT_MOUSE_X                      "event.mouse.x"
+</pre>
+<p>If this sound event was triggered by a mouse input event, the X
+position of the mouse cursor on the screen, formatted as string.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-EVENT-MOUSE-Y:CAPS"></a><h3>GSOUND_ATTR_EVENT_MOUSE_Y</h3>
+<pre class="programlisting">#define GSOUND_ATTR_EVENT_MOUSE_Y                      "event.mouse.y"
+</pre>
+<p>If this sound event was triggered by a mouse input event, the Y
+position of the mouse cursor on the screen, formatted as string.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-EVENT-MOUSE-HPOS:CAPS"></a><h3>GSOUND_ATTR_EVENT_MOUSE_HPOS</h3>
+<pre class="programlisting">#define GSOUND_ATTR_EVENT_MOUSE_HPOS                   "event.mouse.hpos"
+</pre>
+<p>If this sound event was triggered by a mouse input event, the X
+position of the mouse cursor as fractional value between 0 and 1,
+formatted as string, 0 reflecting the left side of the screen, 1
+the right side.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-EVENT-MOUSE-VPOS:CAPS"></a><h3>GSOUND_ATTR_EVENT_MOUSE_VPOS</h3>
+<pre class="programlisting">#define GSOUND_ATTR_EVENT_MOUSE_VPOS                   "event.mouse.vpos"
+</pre>
+<p>If this sound event was triggered by a mouse input event, the Y
+position of the mouse cursor as fractional value between 0 and 1,
+formatted as string, 0 reflecting the top end of the screen, 1
+the bottom end.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-EVENT-MOUSE-BUTTON:CAPS"></a><h3>GSOUND_ATTR_EVENT_MOUSE_BUTTON</h3>
+<pre class="programlisting">#define GSOUND_ATTR_EVENT_MOUSE_BUTTON                 "event.mouse.button"
+</pre>
+<p>If this sound event was triggered by a mouse input event, the
+number of the mouse button that triggered it, formatted as string. 1
+for left mouse button, 3 for right, 2 for middle.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-WINDOW-NAME:CAPS"></a><h3>GSOUND_ATTR_WINDOW_NAME</h3>
+<pre class="programlisting">#define GSOUND_ATTR_WINDOW_NAME                        "window.name"
+</pre>
+<p>If this sound event was triggered by a window on the screen, the
+name of this window as human readable string.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-WINDOW-ID:CAPS"></a><h3>GSOUND_ATTR_WINDOW_ID</h3>
+<pre class="programlisting">#define GSOUND_ATTR_WINDOW_ID                          "window.id"
+</pre>
+<p>If this sound event was triggered by a window on the screen, some
+identification string for this window, so that the sound system can
+recognize specific windows.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-WINDOW-ICON:CAPS"></a><h3>GSOUND_ATTR_WINDOW_ICON</h3>
+<pre class="programlisting">#define GSOUND_ATTR_WINDOW_ICON                        "window.icon"
+</pre>
+<p>If this sound event was triggered by a window on the screen, binary
+icon data in PNG format for this window.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-WINDOW-ICON-NAME:CAPS"></a><h3>GSOUND_ATTR_WINDOW_ICON_NAME</h3>
+<pre class="programlisting">#define GSOUND_ATTR_WINDOW_ICON_NAME                   "window.icon_name"
+</pre>
+<p>If this sound event was triggered by a window on the screen, an
+icon name for this window, as defined in the XDG icon naming
+specification.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-WINDOW-X:CAPS"></a><h3>GSOUND_ATTR_WINDOW_X</h3>
+<pre class="programlisting">#define GSOUND_ATTR_WINDOW_X                           "window.x"
+</pre>
+<p>If this sound event was triggered by a window on the screen, the X
+position of the window measured from the top left corner of the
+screen to the top left corner of the window.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-WINDOW-Y:CAPS"></a><h3>GSOUND_ATTR_WINDOW_Y</h3>
+<pre class="programlisting">#define GSOUND_ATTR_WINDOW_Y                           "window.y"
+</pre>
+<p>If this sound event was triggered by a window on the screen, the y
+position of the window measured from the top left corner of the
+screen to the top left corner of the window.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-WINDOW-WIDTH:CAPS"></a><h3>GSOUND_ATTR_WINDOW_WIDTH</h3>
+<pre class="programlisting">#define GSOUND_ATTR_WINDOW_WIDTH                       "window.width"
+</pre>
+<p>If this sound event was triggered by a window on the screen, the
+pixel width of the window.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-WINDOW-HEIGHT:CAPS"></a><h3>GSOUND_ATTR_WINDOW_HEIGHT</h3>
+<pre class="programlisting">#define GSOUND_ATTR_WINDOW_HEIGHT                      "window.height"
+</pre>
+<p>If this sound event was triggered by a window on the screen, the
+pixel height of the window.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-WINDOW-HPOS:CAPS"></a><h3>GSOUND_ATTR_WINDOW_HPOS</h3>
+<pre class="programlisting">#define GSOUND_ATTR_WINDOW_HPOS                        "window.hpos"
+</pre>
+<p>If this sound event was triggered by a window on the screen, the X
+position of the center of the window as fractional value between 0
+and 1, formatted as string, 0 reflecting the left side of the
+screen, 1 the right side.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-WINDOW-VPOS:CAPS"></a><h3>GSOUND_ATTR_WINDOW_VPOS</h3>
+<pre class="programlisting">#define GSOUND_ATTR_WINDOW_VPOS                        "window.vpos"
+</pre>
+<p>If this sound event was triggered by a window on the screen, the Y
+position of the center of the window as fractional value between 0
+and 1, formatted as string, 0 reflecting the top side of the
+screen, 1 the bottom side.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-WINDOW-DESKTOP:CAPS"></a><h3>GSOUND_ATTR_WINDOW_DESKTOP</h3>
+<pre class="programlisting">#define GSOUND_ATTR_WINDOW_DESKTOP                    "window.desktop"
+</pre>
+<p>If this sound event was triggered by a window on the screen and the
+windowing system supports multiple desktops, a comma seperated list
+of indexes of the desktops this window is visible on. If this
+attribute is an empty string, it is visible on all desktops
+(i.e. 'sticky'). The first desktop is 0. (e.g. "0,2,3")</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-WINDOW-X11-DISPLAY:CAPS"></a><h3>GSOUND_ATTR_WINDOW_X11_DISPLAY</h3>
+<pre class="programlisting">#define GSOUND_ATTR_WINDOW_X11_DISPLAY                 "window.x11.display"
+</pre>
+<p>If this sound event was triggered by a window on the screen and the
+windowing system is X11, the X display name of the window (e.g. ":0").</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-WINDOW-X11-SCREEN:CAPS"></a><h3>GSOUND_ATTR_WINDOW_X11_SCREEN</h3>
+<pre class="programlisting">#define GSOUND_ATTR_WINDOW_X11_SCREEN                  "window.x11.screen"
+</pre>
+<p>If this sound event was triggered by a window on the screen and the
+windowing system is X11, the X screen id of the window formatted as
+string (e.g. "0").</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-WINDOW-X11-MONITOR:CAPS"></a><h3>GSOUND_ATTR_WINDOW_X11_MONITOR</h3>
+<pre class="programlisting">#define GSOUND_ATTR_WINDOW_X11_MONITOR                 "window.x11.monitor"
+</pre>
+<p>If this sound event was triggered by a window on the screen and the
+windowing system is X11, the X monitor id of the window formatted as
+string (e.g. "0").</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-WINDOW-X11-XID:CAPS"></a><h3>GSOUND_ATTR_WINDOW_X11_XID</h3>
+<pre class="programlisting">#define GSOUND_ATTR_WINDOW_X11_XID                     "window.x11.xid"
+</pre>
+<p>If this sound event was triggered by a window on the screen and the
+windowing system is X11, the XID of the window formatted as string.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-APPLICATION-NAME:CAPS"></a><h3>GSOUND_ATTR_APPLICATION_NAME</h3>
+<pre class="programlisting">#define GSOUND_ATTR_APPLICATION_NAME                   "application.name"
+</pre>
+<p>The name of the application this sound event was triggered by as
+human readable string. (e.g. "GNU Emacs") Localized if possible and
+applicable.</p>
+<div class="blockquote"><blockquote class="blockquote"><p>This attribute will automatically be added to the <a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a> if
+it has previously been set with <a href="/usr/share/gtk-doc/html/glib/glib-Miscellaneous-Utility-Functions.html#g-set-application-name"><code class="function">g_set_application_name()</code></a>, so you normally
+do not need to supply this yourself.</p></blockquote></div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-APPLICATION-ID:CAPS"></a><h3>GSOUND_ATTR_APPLICATION_ID</h3>
+<pre class="programlisting">#define GSOUND_ATTR_APPLICATION_ID                     "application.id"
+</pre>
+<p>An identifier for the program this sound event was triggered
+by. (e.g. "org.gnu.emacs").</p>
+<div class="blockquote"><blockquote class="blockquote"><p>This attribute will automatically be added to the <a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a> with
+the <a href="/usr/share/gtk-doc/html/gio/GApplication.html#GApplication--application-id"><span class="type">“application-id”</span></a> if you are using <a href="/usr/share/gtk-doc/html/gio/GApplication.html"><span class="type">GApplication</span></a>, so you
+normally do not need to supply this yourself.</p></blockquote></div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-APPLICATION-VERSION:CAPS"></a><h3>GSOUND_ATTR_APPLICATION_VERSION</h3>
+<pre class="programlisting">#define GSOUND_ATTR_APPLICATION_VERSION                "application.version"
+</pre>
+<p>A version number for the program this sound event was triggered
+by. (e.g. "22.2")</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-APPLICATION-ICON:CAPS"></a><h3>GSOUND_ATTR_APPLICATION_ICON</h3>
+<pre class="programlisting">#define GSOUND_ATTR_APPLICATION_ICON                   "application.icon"
+</pre>
+<p>Binary icon data in PNG format for the application this sound event
+is triggered by.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-APPLICATION-ICON-NAME:CAPS"></a><h3>GSOUND_ATTR_APPLICATION_ICON_NAME</h3>
+<pre class="programlisting">#define GSOUND_ATTR_APPLICATION_ICON_NAME              "application.icon_name"
+</pre>
+<p>An icon name for the application this sound event is triggered by,
+as defined in the XDG icon naming specification.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-APPLICATION-LANGUAGE:CAPS"></a><h3>GSOUND_ATTR_APPLICATION_LANGUAGE</h3>
+<pre class="programlisting">#define GSOUND_ATTR_APPLICATION_LANGUAGE               "application.language"
+</pre>
+<p>The locale string the application that is triggering this sound
+event is running in. A POSIX locale string such as de_DE<em class="parameter"><code>euro</code></em>
+.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-APPLICATION-PROCESS-ID:CAPS"></a><h3>GSOUND_ATTR_APPLICATION_PROCESS_ID</h3>
+<pre class="programlisting">#define GSOUND_ATTR_APPLICATION_PROCESS_ID             "application.process.id"
+</pre>
+<p>The unix PID of the process that is triggering this sound event, formatted as string.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-APPLICATION-PROCESS-BINARY:CAPS"></a><h3>GSOUND_ATTR_APPLICATION_PROCESS_BINARY</h3>
+<pre class="programlisting">#define GSOUND_ATTR_APPLICATION_PROCESS_BINARY         "application.process.binary"
+</pre>
+<p>The path to the process binary of the process that is triggering this sound event.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-APPLICATION-PROCESS-USER:CAPS"></a><h3>GSOUND_ATTR_APPLICATION_PROCESS_USER</h3>
+<pre class="programlisting">#define GSOUND_ATTR_APPLICATION_PROCESS_USER           "application.process.user"
+</pre>
+<p>The user that owns the process that is triggering this sound event.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-APPLICATION-PROCESS-HOST:CAPS"></a><h3>GSOUND_ATTR_APPLICATION_PROCESS_HOST</h3>
+<pre class="programlisting">#define GSOUND_ATTR_APPLICATION_PROCESS_HOST           "application.process.host"
+</pre>
+<p>The host name of the host the process that is triggering this sound event runs on.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-CANBERRA-CACHE-CONTROL:CAPS"></a><h3>GSOUND_ATTR_CANBERRA_CACHE_CONTROL</h3>
+<pre class="programlisting">#define GSOUND_ATTR_CANBERRA_CACHE_CONTROL             "canberra.cache-control"
+</pre>
+<p>A special attribute that can be used to control the automatic sound
+caching of sounds in the sound server. One of "permanent",
+"volatile", "never". "permanent" will cause this sample to be
+cached in the server permanently. This is useful for very
+frequently used sound events such as those used for input
+feedback. "volatile" may be used for cacheing sounds in the sound
+server temporarily. They will expire after some time or on cache
+pressure. Finally, "never" may be used for sounds that should never
+be cached, because they are only generated very seldomly or even
+only once at most (such as desktop login sounds).</p>
+<p>If this attribute is not explicitly passed to <code class="function">gsound_context_play()</code> it
+will default to "never". If it is not explicitly passed to
+<a class="link" href="GSoundContext.html#gsound-context-cache" title="gsound_context_cache ()"><code class="function">gsound_context_cache()</code></a> it will default to "permanent".</p>
+<p>If the list of attributes is handed on to the sound server this
+attribute is stripped from it.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-CANBERRA-VOLUME:CAPS"></a><h3>GSOUND_ATTR_CANBERRA_VOLUME</h3>
+<pre class="programlisting">#define GSOUND_ATTR_CANBERRA_VOLUME                    "canberra.volume"
+</pre>
+<p>A special attribute that can be used to control the volume this
+sound event is played in if the backend supports it. A floating
+point value for the decibel multiplier for the sound. 0 dB relates
+to zero gain, and is the default volume these sounds are played in.</p>
+<p>If the list of attributes is handed on to the sound server this
+attribute is stripped from it.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-CANBERRA-XDG-THEME-NAME:CAPS"></a><h3>GSOUND_ATTR_CANBERRA_XDG_THEME_NAME</h3>
+<pre class="programlisting">#define GSOUND_ATTR_CANBERRA_XDG_THEME_NAME            "canberra.xdg-theme.name"
+</pre>
+<p>A special attribute that can be used to control the XDG sound theme that
+is used for this sample.</p>
+<p>If the list of attributes is handed on to the sound server this
+attribute is stripped from it.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-CANBERRA-XDG-THEME-OUTPUT-PROFILE:CAPS"></a><h3>GSOUND_ATTR_CANBERRA_XDG_THEME_OUTPUT_PROFILE</h3>
+<pre class="programlisting">#define GSOUND_ATTR_CANBERRA_XDG_THEME_OUTPUT_PROFILE  "canberra.xdg-theme.output-profile"
+</pre>
+<p>A special attribute that can be used to control the XDG sound theme
+output profile that is used for this sample.</p>
+<p>If the list of attributes is handed on to the sound server this
+attribute is stripped from it.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-CANBERRA-ENABLE:CAPS"></a><h3>GSOUND_ATTR_CANBERRA_ENABLE</h3>
+<pre class="programlisting">#define GSOUND_ATTR_CANBERRA_ENABLE                    "canberra.enable"
+</pre>
+<p>A special attribute that can be used to control whether any sounds
+are played at all. If this attribute is "1" or unset sounds are
+played as normal. However, if it is "0" all calls to
+<code class="function">gsound_context_play()</code> will fail with GSOUND_ERROR_DISABLED.</p>
+<p>If the list of attributes is handed on to the sound server this
+attribute is stripped from it.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GSOUND-ATTR-CANBERRA-FORCE-CHANNEL:CAPS"></a><h3>GSOUND_ATTR_CANBERRA_FORCE_CHANNEL</h3>
+<pre class="programlisting">#define GSOUND_ATTR_CANBERRA_FORCE_CHANNEL            "canberra.force_channel"
+</pre>
+<p>A special attribute that can be used to control on which channel a
+sound is played. The value should be one of mono, front-left,
+front-right, front-center, rear-left, rear-right, rear-center, lfe,
+front-left-of-center, front-right-of-center, side-left, side-right,
+top-center, top-front-left, top-front-right, top-front-center,
+top-rear-left, top-rear-right, top-rear-center. This attribute is
+only honoured by some backends, other backends may choose to ignore
+it completely.</p>
+<p>If the list of attributes is handed on to the sound server this
+attribute is stripped from it.</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="gsound-GSound-Attributes.see-also"></a><h2>See Also</h2>
+<p><a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a></p>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.21</div>
+</body>
+</html>

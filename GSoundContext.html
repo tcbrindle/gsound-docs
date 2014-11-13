@@ -1,0 +1,1007 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>GSound Reference Manual: GSoundContext</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="GSound Reference Manual">
+<link rel="up" href="ch01.html" title="API Reference">
+<link rel="prev" href="ch01.html" title="API Reference">
+<link rel="next" href="gsound-GSound-Attributes.html" title="GSound Attributes">
+<meta name="generator" content="GTK-Doc V1.21 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#GSoundContext.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#GSoundContext.object-hierarchy" class="shortcut">Object Hierarchy</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="ch01.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="gsound-GSound-Attributes.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="GSoundContext"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="GSoundContext.top_of_page"></a>GSoundContext</span></h2>
+<p>GSoundContext — GSound context object</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="GSoundContext.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_return">
+<col class="functions_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="GSoundContext.html#GSOUND-ERROR:CAPS" title="GSOUND_ERROR">GSOUND_ERROR</a></td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glib/glib-Quarks.html#GQuark"><span class="returnvalue">GQuark</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="GSoundContext.html#gsound-error-quark" title="gsound_error_quark ()">gsound_error_quark</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="GSoundContext.html" title="GSoundContext"><span class="returnvalue">GSoundContext</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="GSoundContext.html#gsound-context-new" title="gsound_context_new ()">gsound_context_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="GSoundContext.html#gsound-context-open" title="gsound_context_open ()">gsound_context_open</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="GSoundContext.html#gsound-context-change-attrs" title="gsound_context_change_attrs ()">gsound_context_change_attrs</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="GSoundContext.html#gsound-context-change-attrsv" title="gsound_context_change_attrsv ()">gsound_context_change_attrsv</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="GSoundContext.html#gsound-context-set-driver" title="gsound_context_set_driver ()">gsound_context_set_driver</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="GSoundContext.html#gsound-context-play-simple" title="gsound_context_play_simple ()">gsound_context_play_simple</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="GSoundContext.html#gsound-context-play-simplev" title="gsound_context_play_simplev ()">gsound_context_play_simplev</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GSoundContext.html#gsound-context-play-full" title="gsound_context_play_full ()">gsound_context_play_full</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="GSoundContext.html#gsound-context-play-fullv" title="gsound_context_play_fullv ()">gsound_context_play_fullv</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="GSoundContext.html#gsound-context-play-full-finish" title="gsound_context_play_full_finish ()">gsound_context_play_full_finish</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="GSoundContext.html#gsound-context-cache" title="gsound_context_cache ()">gsound_context_cache</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="GSoundContext.html#gsound-context-cachev" title="gsound_context_cachev ()">gsound_context_cachev</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GSoundContext.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="name">
+<col class="description">
+</colgroup>
+<tbody><tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="GSoundContext.html#GSoundError" title="enum GSoundError">GSoundError</a></td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="GSoundContext.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    <a href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GObject">GObject</a>
+    <span class="lineart">╰──</span> GSoundContext
+</pre>
+</div>
+<div class="refsect1">
+<a name="GSoundContext.description"></a><h2>Description</h2>
+<p>A <a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a> is used for playing system sounds. The typical use pattern
+is:</p>
+<div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem"><p>Initialize the <a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a></p></li>
+<li class="listitem"><p>[Optional] Set any global attributes using <a class="link" href="GSoundContext.html#gsound-context-change-attrs" title="gsound_context_change_attrs ()"><code class="function">gsound_context_change_attrs()</code></a></p></li>
+<li class="listitem"><p>[Optional] Cache any frequently-used sounds (for example, sound
+effects for a game) using <a class="link" href="GSoundContext.html#gsound-context-cache" title="gsound_context_cache ()"><code class="function">gsound_context_cache()</code></a></p></li>
+<li class="listitem"><p>Play sounds using <a class="link" href="GSoundContext.html#gsound-context-play-simple" title="gsound_context_play_simple ()"><code class="function">gsound_context_play_simple()</code></a> or <a class="link" href="GSoundContext.html#gsound-context-play-full" title="gsound_context_play_full ()"><code class="function">gsound_context_play_full()</code></a></p></li>
+<li class="listitem"><p>Close the connection to the sound server and clean up the context using
+<a href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#g-object-unref"><code class="function">g_object_unref()</code></a></p></li>
+</ul></div>
+<p><a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a> implements the <a href="/usr/share/gtk-doc/html/gio/GInitable.html"><span class="type">GInitable</span></a> interface, so if created with
+<a href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#g-object-new"><code class="function">g_object_new()</code></a> (as typically happens with language bindings) then you must
+call the <a href="/usr/share/gtk-doc/html/gio/GInitable.html#g-initable-init"><code class="function">g_initable_init()</code></a> method before attempting to use it.</p>
+<div class="refsect3">
+<a name="id-1.2.2.6.5"></a><h4>Simple Examples</h4>
+<p>In C:</p>
+<div class="informalexample">
+  <table class="listing_frame" border="0" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td class="listing_lines" align="right"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13</pre></td>
+        <td class="listing_code"><pre class="programlisting"><span class="usertype">GSoundContext</span><span class="normal"> </span><span class="symbol">*</span><span class="normal">ctx </span><span class="symbol">=</span><span class="normal"> <a href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS">NULL</a></span><span class="symbol">;</span>
+<span class="usertype">GCancellable</span><span class="normal"> </span><span class="symbol">*</span><span class="normal">cancellable </span><span class="symbol">=</span><span class="normal"> </span><span class="function"><a href="/usr/share/gtk-doc/html/gio/GCancellable.html#g-cancellable-new">g_cancellable_new</a></span><span class="symbol">();</span>
+<span class="usertype">GError</span><span class="normal"> </span><span class="symbol">*</span><span class="normal">error </span><span class="symbol">=</span><span class="normal"> <a href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS">NULL</a></span><span class="symbol">;</span>
+
+<span class="normal">ctx </span><span class="symbol">=</span><span class="normal"> </span><span class="function"><a href="GSoundContext.html#gsound-context-new">gsound_context_new</a></span><span class="symbol">(</span><span class="normal">cancellable</span><span class="symbol">,</span><span class="normal"> </span><span class="symbol">&amp;</span><span class="normal">error</span><span class="symbol">);</span>
+<span class="keyword">if</span><span class="normal"> </span><span class="symbol">(</span><span class="normal">error</span><span class="symbol">)</span><span class="normal"> </span><span class="cbracket">{</span>
+<span class="normal">    </span><span class="comment">// handle error</span>
+<span class="cbracket">}</span>
+
+<span class="function"><a href="GSoundContext.html#gsound-context-play-simple">gsound_context_play_simple</a></span><span class="symbol">(</span><span class="normal">ctx</span><span class="symbol">,</span><span class="normal"> cancellable</span><span class="symbol">,</span><span class="normal"> </span><span class="symbol">&amp;</span><span class="normal">error</span><span class="symbol">,</span>
+<span class="normal">                           <a href="gsound-GSound-Attributes.html#GSOUND-ATTR-EVENT-ID:CAPS">GSOUND_ATTR_EVENT_ID</a></span><span class="symbol">,</span><span class="normal"> </span><span class="string">"phone-incoming-call"</span><span class="symbol">,</span>
+<span class="normal">                           </span><span class="comment">// other attributes...</span>
+<span class="normal">                           <a href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS">NULL</a></span><span class="symbol">);</span></pre></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p></p>
+<p>or, using Python via GObject Introspection:</p>
+<div class="informalexample">
+  <table class="listing_frame" border="0" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td class="listing_lines" align="right"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12</pre></td>
+        <td class="listing_code"><pre class="programlisting"><span class="usertype">from</span><span class="normal"> gi</span><span class="symbol">.</span><span class="normal">repository </span><span class="usertype">import</span><span class="normal"> GSound</span><span class="symbol">,</span><span class="normal"> Gio</span>
+
+<span class="normal">ctx </span><span class="symbol">=</span><span class="normal"> GSound</span><span class="symbol">.</span><span class="function">Context</span><span class="symbol">()</span>
+<span class="normal">cancellable </span><span class="symbol">=</span><span class="normal"> Gio</span><span class="symbol">.</span><span class="function">Cancellable</span><span class="symbol">()</span>
+
+<span class="label">try:</span>
+<span class="normal">    ctx</span><span class="symbol">.</span><span class="function">init</span><span class="symbol">(</span><span class="normal">cancellable</span><span class="symbol">);</span>
+<span class="normal">    ctx</span><span class="symbol">.</span><span class="function">play_simple</span><span class="symbol">(</span><span class="normal">cancellable</span><span class="symbol">,</span>
+<span class="normal">                   </span><span class="cbracket">{</span><span class="normal"> GSound</span><span class="symbol">.</span><span class="normal">ATTR_EVENT_ID </span><span class="symbol">:</span><span class="normal"> </span><span class="string">"phone-incoming-call"</span><span class="normal"> </span><span class="cbracket">}</span><span class="symbol">)</span>
+<span class="label">except:</span>
+<span class="preproc">    # Handle</span><span class="normal"> error</span>
+<span class="normal">    pass</span></pre></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p></p>
+<p>or using Vala:</p>
+<div class="informalexample">
+  <table class="listing_frame" border="0" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td class="listing_lines" align="right"><pre>1
+2
+3
+4
+5
+6</pre></td>
+        <td class="listing_code"><pre class="programlisting"><span class="normal">try </span><span class="cbracket">{</span>
+<span class="normal">    </span><span class="usertype">var</span><span class="normal"> ctx </span><span class="symbol">=</span><span class="normal"> </span><span class="usertype">new</span><span class="normal"> GSound</span><span class="symbol">.</span><span class="function">Context</span><span class="symbol">();</span>
+<span class="normal">    ctx</span><span class="symbol">.</span><span class="function">play_simple</span><span class="symbol">(</span><span class="normal">null</span><span class="symbol">,</span><span class="normal"> GSound</span><span class="symbol">.</span><span class="normal">Attribute</span><span class="symbol">.</span><span class="normal">EVENT_ID</span><span class="symbol">,</span><span class="normal"> </span><span class="string">"phone-incoming-call"</span><span class="symbol">);</span>
+<span class="cbracket">}</span><span class="normal"> </span><span class="keyword">catch</span><span class="normal"> </span><span class="symbol">(</span><span class="usertype">Error</span><span class="normal"> e</span><span class="symbol">)</span><span class="normal"> </span><span class="cbracket">{</span>
+<span class="normal">    </span><span class="comment">// handle error</span>
+<span class="cbracket">}</span></pre></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p></p>
+</div>
+<div class="refsect3">
+<a name="id-1.2.2.6.6"></a><h4>Events</h4>
+</div>
+<div class="refsect3">
+<a name="id-1.2.2.6.7"></a><h4>
+<code class="literal"><code class="function">play_simple()</code></code> versus <code class="literal"><code class="function">play_full()</code></code>
+</h4>
+<p>The above examples use the <a class="link" href="GSoundContext.html#gsound-context-play-simple" title="gsound_context_play_simple ()"><code class="function">gsound_context_play_simple()</code></a> method for
+playing sounds. This is a "fire and forget" method which returns
+immediately and does not block your program, and is suitable for most use
+cases.</p>
+<p>If you need to find out when the sound finished (for example to repeat the
+sound) then you can use the <a class="link" href="GSoundContext.html#gsound-context-play-full" title="gsound_context_play_full ()"><code class="function">gsound_context_play_full()</code></a> version. This
+is an asynchronous method using the standard GIO async pattern, which will
+run the supplied <a href="/usr/share/gtk-doc/html/gio/GAsyncResult.html#GAsyncReadyCallback"><span class="type">GAsyncReadyCallback</span></a> when the sound server has finished.</p>
+</div>
+<div class="refsect3">
+<a name="id-1.2.2.6.8"></a><h4>Passing Attributes</h4>
+<p>GSound supplies information to the sound server by means of attributes.
+Attributes can be set on the <a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a> itself using
+<a class="link" href="GSoundContext.html#gsound-context-change-attrs" title="gsound_context_change_attrs ()"><code class="function">gsound_context_change_attrs()</code></a>, or supplied in a <code class="literal"><code class="function">play()</code></code> call. Attributes
+set on the context will automatically applied to any subsequent <code class="literal"><code class="function">play()</code></code>
+calls, unless overridden by that call.</p>
+<p>In C and Vala, attributes are passed as <a href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>-terminated list of
+(attribute, value) pairs. When using GObject introspection, attributes are
+typically passed using a language-specific associated array, for example
+a dict in Python or an object in JavaScript.</p>
+List of attibutes supported by GSound
+</div>
+</div>
+<div class="refsect1">
+<a name="GSoundContext.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="GSOUND-ERROR:CAPS"></a><h3>GSOUND_ERROR</h3>
+<pre class="programlisting">#define GSOUND_ERROR (gsound_error_quark())
+</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gsound-error-quark"></a><h3>gsound_error_quark ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glib/glib-Quarks.html#GQuark"><span class="returnvalue">GQuark</span></a>
+gsound_error_quark (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gsound-context-new"></a><h3>gsound_context_new ()</h3>
+<pre class="programlisting"><a class="link" href="GSoundContext.html" title="GSoundContext"><span class="returnvalue">GSoundContext</span></a> *
+gsound_context_new (<em class="parameter"><code><a href="/usr/share/gtk-doc/html/gio/GCancellable.html"><span class="type">GCancellable</span></a> *cancellable</code></em>,
+                    <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Creates and initializes a new <a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a>. If the an error occured
+during initialization, <a href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"><span class="type">NULL</span></a> is returned and <em class="parameter"><code>error</code></em>
+ will be set
+appropriately.</p>
+<div class="refsect3">
+<a name="id-1.2.2.7.4.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>cancellable</p></td>
+<td class="parameter_description"><p> A <a href="/usr/share/gtk-doc/html/gio/GCancellable.html"><span class="type">GCancellable</span></a>, or <a href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL is OK, both for passing and for returning."><span class="acronym">allow-none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>Return location for error</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.2.7.4.6"></a><h4>Returns</h4>
+<p> A new <a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a>. </p>
+<p><span class="annotation">[<acronym title="Free data after the code is done."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gsound-context-open"></a><h3>gsound_context_open ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+gsound_context_open (<em class="parameter"><code><a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a> *context</code></em>,
+                     <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Attempts to open a connection to the backend sound driver. It is recommended
+that you set context attributes with <a class="link" href="GSoundContext.html#gsound-context-change-attrs" title="gsound_context_change_attrs ()"><code class="function">gsound_context_change_attrs()</code></a> before
+calling this function.</p>
+<div class="blockquote"><blockquote class="blockquote"><p>A connection is automatically opened before playing or caching sounds,
+so you rarely need to call this yourself.</p></blockquote></div>
+<div class="refsect3">
+<a name="id-1.2.2.7.5.6"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>context</p></td>
+<td class="parameter_description"><p>A <a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>Return location for error</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.2.7.5.7"></a><h4>Returns</h4>
+<p> <a href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if the output device was opened successfully, or <a href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a>
+(populating <em class="parameter"><code>error</code></em>
+)</p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gsound-context-change-attrs"></a><h3>gsound_context_change_attrs ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+gsound_context_change_attrs (<em class="parameter"><code><a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a> *context</code></em>,
+                             <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>,
+                             <em class="parameter"><code>...</code></em>);</pre>
+<p>Set attributes or change attributes on <em class="parameter"><code>context</code></em>
+. Subsequent calls to this
+function calling the same attributes will override the earlier values.</p>
+<p>Note that GSound will set the <a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-APPLICATION-NAME:CAPS" title="GSOUND_ATTR_APPLICATION_NAME"><span class="type">GSOUND_ATTR_APPLICATION_NAME</span></a> and
+<a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-APPLICATION-ID:CAPS" title="GSOUND_ATTR_APPLICATION_ID"><span class="type">GSOUND_ATTR_APPLICATION_ID</span></a> for you if using <a href="/usr/share/gtk-doc/html/gio/GApplication.html"><span class="type">GApplication</span></a>, so you do
+not normally need to set these yourself.</p>
+<div class="refsect3">
+<a name="id-1.2.2.7.6.6"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>context</p></td>
+<td class="parameter_description"><p>A <a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>Return location for error</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>...</p></td>
+<td class="parameter_description"><p><a href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a> terminated list of attribute name-value pairs</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.2.7.6.7"></a><h4>Returns</h4>
+<p> <a href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if attributes were updated successfully</p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gsound-context-change-attrsv"></a><h3>gsound_context_change_attrsv ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+gsound_context_change_attrsv (<em class="parameter"><code><a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a> *context</code></em>,
+                              <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glib/glib-Hash-Tables.html#GHashTable"><span class="type">GHashTable</span></a> *attrs</code></em>,
+                              <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Set attributes or change attributes on <em class="parameter"><code>context</code></em>
+. Subsequent calls to this
+function calling the same attributes will override the earlier values.</p>
+<p>Note that GSound will set the <a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-APPLICATION-NAME:CAPS" title="GSOUND_ATTR_APPLICATION_NAME"><span class="type">GSOUND_ATTR_APPLICATION_NAME</span></a> and
+<a class="link" href="gsound-GSound-Attributes.html#GSOUND-ATTR-APPLICATION-ID:CAPS" title="GSOUND_ATTR_APPLICATION_ID"><span class="type">GSOUND_ATTR_APPLICATION_ID</span></a> for you if using <a href="/usr/share/gtk-doc/html/gio/GApplication.html"><span class="type">GApplication</span></a>, so you do
+not normally need to set these yourself.</p>
+<div class="refsect3">
+<a name="id-1.2.2.7.7.6"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>context</p></td>
+<td class="parameter_description"><p>A <a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>attrs</p></td>
+<td class="parameter_description"><p> Hash table of attributes to set. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> utf8 utf8]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>Return location for error, or <a href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.2.7.7.7"></a><h4>Returns</h4>
+<p> <a href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if attributes were updated successfully</p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gsound-context-set-driver"></a><h3>gsound_context_set_driver ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+gsound_context_set_driver (<em class="parameter"><code><a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a> *context</code></em>,
+                           <em class="parameter"><code>const <span class="type">char</span> *driver</code></em>,
+                           <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Sets the libcanberra driver to <em class="parameter"><code>driver</code></em>
+, for example "pulse", "alsa" or "null".
+You normally do not need to set this yourself.</p>
+<p>Note that this function may return <a href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> even if the specified driver is
+not available: see the libcanberra documentation for details.</p>
+<div class="refsect3">
+<a name="id-1.2.2.7.8.6"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>context</p></td>
+<td class="parameter_description"><p>A <a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>driver</p></td>
+<td class="parameter_description"><p>libcanberra driver to use</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>Return location for error, or <a href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.2.7.8.7"></a><h4>Returns</h4>
+<p> <a href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if the libcanberra driver was set successfully</p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gsound-context-play-simple"></a><h3>gsound_context_play_simple ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+gsound_context_play_simple (<em class="parameter"><code><a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a> *context</code></em>,
+                            <em class="parameter"><code><a href="/usr/share/gtk-doc/html/gio/GCancellable.html"><span class="type">GCancellable</span></a> *cancellable</code></em>,
+                            <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>,
+                            <em class="parameter"><code>...</code></em>);</pre>
+<p>The basic "fire-and-forget" play command. This function will not block, and
+just sends a request to the sound server before immediately returning.</p>
+<p>If you need to know when a sound finishes playing then you should call
+<a class="link" href="GSoundContext.html#gsound-context-play-full" title="gsound_context_play_full ()"><code class="function">gsound_context_play_full()</code></a> instead.</p>
+<p>You can cancel playback at any time by calling <a href="/usr/share/gtk-doc/html/gio/GCancellable.html#g-cancellable-cancel"><code class="function">g_cancellable_cancel()</code></a> on
+<em class="parameter"><code>cancellable</code></em>
+, if supplied.</p>
+<div class="refsect3">
+<a name="id-1.2.2.7.9.7"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>context</p></td>
+<td class="parameter_description"><p>A <a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>cancellable</p></td>
+<td class="parameter_description"><p> A <a href="/usr/share/gtk-doc/html/gio/GCancellable.html"><span class="type">GCancellable</span></a>, or <a href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL is OK, both for passing and for returning."><span class="acronym">allow-none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>Return location for error, or <a href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>...</p></td>
+<td class="parameter_description"><p>A <a href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>-terminated list of attribute-value pairs</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.2.7.9.8"></a><h4>Returns</h4>
+<p> <a href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> on success, or <a href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a>, populating <em class="parameter"><code>error</code></em>
+</p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gsound-context-play-simplev"></a><h3>gsound_context_play_simplev ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+gsound_context_play_simplev (<em class="parameter"><code><a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a> *context</code></em>,
+                             <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glib/glib-Hash-Tables.html#GHashTable"><span class="type">GHashTable</span></a> *attrs</code></em>,
+                             <em class="parameter"><code><a href="/usr/share/gtk-doc/html/gio/GCancellable.html"><span class="type">GCancellable</span></a> *cancellable</code></em>,
+                             <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>The basic "fire-and-forget" play command. This function will not block, and
+just sends a request to the sound server before immediately returning.</p>
+<p>If you need to know when a sound finishes playing then you should call
+<a class="link" href="GSoundContext.html#gsound-context-play-full" title="gsound_context_play_full ()"><code class="function">gsound_context_play_full()</code></a> instead.</p>
+<p>You can cancel playback at any time by calling <a href="/usr/share/gtk-doc/html/gio/GCancellable.html#g-cancellable-cancel"><code class="function">g_cancellable_cancel()</code></a> on
+<em class="parameter"><code>cancellable</code></em>
+, if supplied.</p>
+<div class="refsect3">
+<a name="id-1.2.2.7.10.7"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>context</p></td>
+<td class="parameter_description"><p>A <a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>attrs</p></td>
+<td class="parameter_description"><p> Attributes. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> utf8 utf8]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>cancellable</p></td>
+<td class="parameter_description"><p> A <a href="/usr/share/gtk-doc/html/gio/GCancellable.html"><span class="type">GCancellable</span></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL is OK, both for passing and for returning."><span class="acronym">allow-none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>Return location for error</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.2.7.10.8"></a><h4>Returns</h4>
+<p> <a href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> on success, <a href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> on error</p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gsound-context-play-full"></a><h3>gsound_context_play_full ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+gsound_context_play_full (<em class="parameter"><code><a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a> *context</code></em>,
+                          <em class="parameter"><code><a href="/usr/share/gtk-doc/html/gio/GCancellable.html"><span class="type">GCancellable</span></a> *cancellable</code></em>,
+                          <em class="parameter"><code><a href="/usr/share/gtk-doc/html/gio/GAsyncResult.html#GAsyncReadyCallback"><span class="type">GAsyncReadyCallback</span></a> callback</code></em>,
+                          <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a> user_data</code></em>,
+                          <em class="parameter"><code>...</code></em>);</pre>
+<p>Asynchronously request a sound to be played. When playback is finished
+(or if an error occurs) then <em class="parameter"><code>callback</code></em>
+ will be called, following the
+normal GIO async pattern.</p>
+<p>If playback is cancelled via <em class="parameter"><code>cancellable</code></em>
+, then <em class="parameter"><code>callback</code></em>
+ will be called
+with <span class="type">G_IO_ERROR_CANCELLED</span>.</p>
+<p>If you do not need notification of when playback is complete, you should
+use <a class="link" href="GSoundContext.html#gsound-context-play-simple" title="gsound_context_play_simple ()"><code class="function">gsound_context_play_simple()</code></a>.</p>
+<div class="refsect3">
+<a name="id-1.2.2.7.11.7"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>context</p></td>
+<td class="parameter_description"><p>A <a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>cancellable</p></td>
+<td class="parameter_description"><p> A <a href="/usr/share/gtk-doc/html/gio/GCancellable.html"><span class="type">GCancellable</span></a>, or <a href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL is OK, both for passing and for returning."><span class="acronym">allow-none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>callback</p></td>
+<td class="parameter_description"><p> callback. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="The callback is valid until first called."><span class="acronym">scope async</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>User data passed to <em class="parameter"><code>callback</code></em>
+</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>...</p></td>
+<td class="parameter_description"><p>A <a href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>-terminated list of attribute-value pairs</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gsound-context-play-fullv"></a><h3>gsound_context_play_fullv ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+gsound_context_play_fullv (<em class="parameter"><code><a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a> *context</code></em>,
+                           <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glib/glib-Hash-Tables.html#GHashTable"><span class="type">GHashTable</span></a> *attrs</code></em>,
+                           <em class="parameter"><code><a href="/usr/share/gtk-doc/html/gio/GCancellable.html"><span class="type">GCancellable</span></a> *cancellable</code></em>,
+                           <em class="parameter"><code><a href="/usr/share/gtk-doc/html/gio/GAsyncResult.html#GAsyncReadyCallback"><span class="type">GAsyncReadyCallback</span></a> callback</code></em>,
+                           <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a> user_data</code></em>);</pre>
+<p>Asynchronously request a sound to be played. When playback is finished
+(or if an error occurs) then <em class="parameter"><code>callback</code></em>
+ will be called, following the
+normal GIO async pattern.</p>
+<p>If playback is cancelled via <em class="parameter"><code>cancellable</code></em>
+, then <em class="parameter"><code>callback</code></em>
+ will be called
+with <span class="type">G_IO_ERROR_CANCELLED</span>.</p>
+<p>If you do not need notification of when playback is complete, you should
+use <a class="link" href="GSoundContext.html#gsound-context-play-simple" title="gsound_context_play_simple ()"><code class="function">gsound_context_play_simple()</code></a>.</p>
+<div class="refsect3">
+<a name="id-1.2.2.7.12.7"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>context</p></td>
+<td class="parameter_description"><p>A <a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>attrs</p></td>
+<td class="parameter_description"><p> Attributes. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> utf8 utf8]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>cancellable</p></td>
+<td class="parameter_description"><p> A <a href="/usr/share/gtk-doc/html/gio/GCancellable.html"><span class="type">GCancellable</span></a>, or <a href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL is OK, both for passing and for returning."><span class="acronym">allow-none</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>callback</p></td>
+<td class="parameter_description"><p> callback. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="The callback is valid until first called."><span class="acronym">scope async</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>user_data</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gsound-context-play-full-finish"></a><h3>gsound_context_play_full_finish ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+gsound_context_play_full_finish (<em class="parameter"><code><a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a> *context</code></em>,
+                                 <em class="parameter"><code><a href="/usr/share/gtk-doc/html/gio/GAsyncResult.html"><span class="type">GAsyncResult</span></a> *result</code></em>,
+                                 <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Finish an async operation started by <a class="link" href="GSoundContext.html#gsound-context-play-full" title="gsound_context_play_full ()"><code class="function">gsound_context_play_full()</code></a>. You
+must call this function in the callback to free memory and receive any
+errors which occurred.</p>
+<div class="refsect3">
+<a name="id-1.2.2.7.13.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>context</p></td>
+<td class="parameter_description"><p>A <a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>result</p></td>
+<td class="parameter_description"><p>Result object passed to the callback of
+<a class="link" href="GSoundContext.html#gsound-context-play-full" title="gsound_context_play_full ()"><code class="function">gsound_context_play_full()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>Return location for error</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.2.7.13.6"></a><h4>Returns</h4>
+<p> <a href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if playing finished successfully</p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gsound-context-cache"></a><h3>gsound_context_cache ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+gsound_context_cache (<em class="parameter"><code><a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a> *context</code></em>,
+                      <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>,
+                      <em class="parameter"><code>...</code></em>);</pre>
+<p>Requests that a sound be cached on the server. See caching.</p>
+<div class="refsect3">
+<a name="id-1.2.2.7.14.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>context</p></td>
+<td class="parameter_description"><p>A <a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>Return location for error</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>...</p></td>
+<td class="parameter_description"><p>A <span class="type">NULL-terminated</span> list of attribute-value pairs</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="id-1.2.2.7.14.6"></a><h4>Returns</h4>
+<p> <a href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> on success</p>
+<p></p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="gsound-context-cachev"></a><h3>gsound_context_cachev ()</h3>
+<pre class="programlisting"><a href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
+gsound_context_cachev (<em class="parameter"><code><a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a> *context</code></em>,
+                       <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glib/glib-Hash-Tables.html#GHashTable"><span class="type">GHashTable</span></a> *attrs</code></em>,
+                       <em class="parameter"><code><a href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+<p>Requests that a sound be cached on the server. See caching.</p>
+<div class="refsect3">
+<a name="id-1.2.2.7.15.5"></a><h4>Parameters</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>context</p></td>
+<td class="parameter_description"><p>A <a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>attrs</p></td>
+<td class="parameter_description"><p> Hash table of attrerties. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Generics and defining elements of containers and arrays."><span class="acronym">element-type</span></acronym> utf8 utf8]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>Return location for error, or <a href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="GSoundContext.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="GSoundError"></a><h3>enum GSoundError</h3>
+<div class="refsect3">
+<a name="id-1.2.2.8.2.3"></a><h4>Members</h4>
+<div class="informaltable"><table width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="GSOUND-ERROR-NOTSUPPORTED:CAPS"></a>GSOUND_ERROR_NOTSUPPORTED</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GSOUND-ERROR-INVALID:CAPS"></a>GSOUND_ERROR_INVALID</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GSOUND-ERROR-STATE:CAPS"></a>GSOUND_ERROR_STATE</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GSOUND-ERROR-OOM:CAPS"></a>GSOUND_ERROR_OOM</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GSOUND-ERROR-NODRIVER:CAPS"></a>GSOUND_ERROR_NODRIVER</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GSOUND-ERROR-SYSTEM:CAPS"></a>GSOUND_ERROR_SYSTEM</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GSOUND-ERROR-CORRUPT:CAPS"></a>GSOUND_ERROR_CORRUPT</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GSOUND-ERROR-TOOBIG:CAPS"></a>GSOUND_ERROR_TOOBIG</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GSOUND-ERROR-NOTFOUND:CAPS"></a>GSOUND_ERROR_NOTFOUND</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GSOUND-ERROR-DESTROYED:CAPS"></a>GSOUND_ERROR_DESTROYED</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GSOUND-ERROR-CANCELED:CAPS"></a>GSOUND_ERROR_CANCELED</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GSOUND-ERROR-NOTAVAILABLE:CAPS"></a>GSOUND_ERROR_NOTAVAILABLE</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GSOUND-ERROR-ACCESS:CAPS"></a>GSOUND_ERROR_ACCESS</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GSOUND-ERROR-IO:CAPS"></a>GSOUND_ERROR_IO</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GSOUND-ERROR-INTERNAL:CAPS"></a>GSOUND_ERROR_INTERNAL</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GSOUND-ERROR-DISABLED:CAPS"></a>GSOUND_ERROR_DISABLED</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GSOUND-ERROR-FORKED:CAPS"></a>GSOUND_ERROR_FORKED</p></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="GSOUND-ERROR-DISCONNECTED:CAPS"></a>GSOUND_ERROR_DISCONNECTED</p></td>
+<td> </td>
+<td> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="GSoundContext.see-also"></a><h2>See Also</h2>
+<p><a href="/usr/share/gtk-doc/html/libcanberra/libcanberra-canberra.html#ca-context"><span class="type">ca_context</span></a></p>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.21</div>
+</body>
+</html>
