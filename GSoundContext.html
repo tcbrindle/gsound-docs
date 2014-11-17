@@ -73,7 +73,7 @@
 <a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
 </td>
 <td class="function_name">
-<a class="link" href="GSoundContext.html#gsound-context-change-attrs" title="gsound_context_change_attrs ()">gsound_context_change_attrs</a> <span class="c_punctuation">()</span>
+<a class="link" href="GSoundContext.html#gsound-context-set-attributes" title="gsound_context_set_attributes ()">gsound_context_set_attributes</a> <span class="c_punctuation">()</span>
 </td>
 </tr>
 <tr>
@@ -81,7 +81,7 @@
 <a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
 </td>
 <td class="function_name">
-<a class="link" href="GSoundContext.html#gsound-context-change-attrsv" title="gsound_context_change_attrsv ()">gsound_context_change_attrsv</a> <span class="c_punctuation">()</span>
+<a class="link" href="GSoundContext.html#gsound-context-set-attributesv" title="gsound_context_set_attributesv ()">gsound_context_set_attributesv</a> <span class="c_punctuation">()</span>
 </td>
 </tr>
 <tr>
@@ -176,7 +176,7 @@
 is:</p>
 <div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
 <li class="listitem"><p>Initialize the <a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a></p></li>
-<li class="listitem"><p>[Optional] Set any global attributes using <a class="link" href="GSoundContext.html#gsound-context-change-attrs" title="gsound_context_change_attrs ()"><code class="function">gsound_context_change_attrs()</code></a></p></li>
+<li class="listitem"><p>[Optional] Set any global attributes using <a class="link" href="GSoundContext.html#gsound-context-set-attributes" title="gsound_context_set_attributes ()"><code class="function">gsound_context_set_attributes()</code></a></p></li>
 <li class="listitem"><p>[Optional] Cache any frequently-used sounds (for example, sound
 effects for a game) using <a class="link" href="GSoundContext.html#gsound-context-cache" title="gsound_context_cache ()"><code class="function">gsound_context_cache()</code></a></p></li>
 <li class="listitem"><p>Play sounds using <a class="link" href="GSoundContext.html#gsound-context-play-simple" title="gsound_context_play_simple ()"><code class="function">gsound_context_play_simple()</code></a> or <a class="link" href="GSoundContext.html#gsound-context-play-full" title="gsound_context_play_full ()"><code class="function">gsound_context_play_full()</code></a></p></li>
@@ -304,7 +304,7 @@ run the supplied <a href="../gio/GAsyncResult.html#GAsyncReadyCallback"><span cl
 <a name="id-1.2.2.6.8"></a><h4>Passing Attributes</h4>
 <p>GSound supplies information to the sound server by means of attributes.
 Attributes can be set on the <a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a> itself using
-<a class="link" href="GSoundContext.html#gsound-context-change-attrs" title="gsound_context_change_attrs ()"><code class="function">gsound_context_change_attrs()</code></a>, or supplied in a <code class="literal"><code class="function">play()</code></code> call. Attributes
+<a class="link" href="GSoundContext.html#gsound-context-set-attributes" title="gsound_context_set_attributes ()"><code class="function">gsound_context_set_attributes()</code></a>, or supplied in a <code class="literal"><code class="function">play()</code></code> call. Attributes
 set on the context will automatically applied to any subsequent <code class="literal"><code class="function">play()</code></code>
 calls, unless overridden by that call.</p>
 <p>In C and Vala, attributes are passed as <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>-terminated list of
@@ -372,7 +372,7 @@ appropriately.</p>
 gsound_context_open (<em class="parameter"><code><a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a> *context</code></em>,
                      <em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
 <p>Attempts to open a connection to the backend sound driver. It is recommended
-that you set context attributes with <a class="link" href="GSoundContext.html#gsound-context-change-attrs" title="gsound_context_change_attrs ()"><code class="function">gsound_context_change_attrs()</code></a> before
+that you set context attributes with <a class="link" href="GSoundContext.html#gsound-context-set-attributes" title="gsound_context_set_attributes ()"><code class="function">gsound_context_set_attributes()</code></a> before
 calling this function.</p>
 <div class="blockquote"><blockquote class="blockquote"><p>A connection is automatically opened before playing or caching sounds,
 so you rarely need to call this yourself.</p></blockquote></div>
@@ -408,11 +408,11 @@ so you rarely need to call this yourself.</p></blockquote></div>
 </div>
 <hr>
 <div class="refsect2">
-<a name="gsound-context-change-attrs"></a><h3>gsound_context_change_attrs ()</h3>
+<a name="gsound-context-set-attributes"></a><h3>gsound_context_set_attributes ()</h3>
 <pre class="programlisting"><a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
-gsound_context_change_attrs (<em class="parameter"><code><a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a> *context</code></em>,
-                             <em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>,
-                             <em class="parameter"><code>...</code></em>);</pre>
+gsound_context_set_attributes (<em class="parameter"><code><a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a> *context</code></em>,
+                               <em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>,
+                               <em class="parameter"><code>...</code></em>);</pre>
 <p>Set attributes or change attributes on <em class="parameter"><code>context</code></em>
 . Subsequent calls to this
 function calling the same attributes will override the earlier values.</p>
@@ -454,11 +454,11 @@ not normally need to set these yourself.</p>
 </div>
 <hr>
 <div class="refsect2">
-<a name="gsound-context-change-attrsv"></a><h3>gsound_context_change_attrsv ()</h3>
+<a name="gsound-context-set-attributesv"></a><h3>gsound_context_set_attributesv ()</h3>
 <pre class="programlisting"><a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>
-gsound_context_change_attrsv (<em class="parameter"><code><a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a> *context</code></em>,
-                              <em class="parameter"><code><a href="../glib/glib-Hash-Tables.html#GHashTable"><span class="type">GHashTable</span></a> *attrs</code></em>,
-                              <em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
+gsound_context_set_attributesv (<em class="parameter"><code><a class="link" href="GSoundContext.html" title="GSoundContext"><span class="type">GSoundContext</span></a> *context</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Hash-Tables.html#GHashTable"><span class="type">GHashTable</span></a> *attrs</code></em>,
+                                <em class="parameter"><code><a href="../glib/glib-Error-Reporting.html#GError"><span class="type">GError</span></a> **error</code></em>);</pre>
 <p>Set attributes or change attributes on <em class="parameter"><code>context</code></em>
 . Subsequent calls to this
 function calling the same attributes will override the earlier values.</p>

@@ -16,8 +16,8 @@
     <keyword type="function" name="gsound_error_quark ()" link="GSoundContext.html#gsound-error-quark"/>
     <keyword type="function" name="gsound_context_new ()" link="GSoundContext.html#gsound-context-new"/>
     <keyword type="function" name="gsound_context_open ()" link="GSoundContext.html#gsound-context-open"/>
-    <keyword type="function" name="gsound_context_change_attrs ()" link="GSoundContext.html#gsound-context-change-attrs"/>
-    <keyword type="function" name="gsound_context_change_attrsv ()" link="GSoundContext.html#gsound-context-change-attrsv"/>
+    <keyword type="function" name="gsound_context_set_attributes ()" link="GSoundContext.html#gsound-context-set-attributes"/>
+    <keyword type="function" name="gsound_context_set_attributesv ()" link="GSoundContext.html#gsound-context-set-attributesv"/>
     <keyword type="function" name="gsound_context_set_driver ()" link="GSoundContext.html#gsound-context-set-driver"/>
     <keyword type="function" name="gsound_context_play_simple ()" link="GSoundContext.html#gsound-context-play-simple"/>
     <keyword type="function" name="gsound_context_play_simplev ()" link="GSoundContext.html#gsound-context-play-simplev"/>

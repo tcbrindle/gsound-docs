@@ -9,8 +9,8 @@
 <ANCHOR id="gsound-error-quark" href="gsound/GSoundContext.html#gsound-error-quark">
 <ANCHOR id="gsound-context-new" href="gsound/GSoundContext.html#gsound-context-new">
 <ANCHOR id="gsound-context-open" href="gsound/GSoundContext.html#gsound-context-open">
-<ANCHOR id="gsound-context-change-attrs" href="gsound/GSoundContext.html#gsound-context-change-attrs">
-<ANCHOR id="gsound-context-change-attrsv" href="gsound/GSoundContext.html#gsound-context-change-attrsv">
+<ANCHOR id="gsound-context-set-attributes" href="gsound/GSoundContext.html#gsound-context-set-attributes">
+<ANCHOR id="gsound-context-set-attributesv" href="gsound/GSoundContext.html#gsound-context-set-attributesv">
 <ANCHOR id="gsound-context-set-driver" href="gsound/GSoundContext.html#gsound-context-set-driver">
 <ANCHOR id="gsound-context-play-simple" href="gsound/GSoundContext.html#gsound-context-play-simple">
 <ANCHOR id="gsound-context-play-simplev" href="gsound/GSoundContext.html#gsound-context-play-simplev">
